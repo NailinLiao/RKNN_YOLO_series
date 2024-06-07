@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "YOLO_V5/deploy_demo",
+					"jsonFile" : "directory-YOLO_V5.deploy_demo-Debug-500b1855cdcf42af4e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "YOLO_V5/deploy_demo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "YOLO_V8/deploy_demo",
+					"jsonFile" : "directory-YOLO_V8.deploy_demo-Debug-25ed51a2fb2789339113.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "YOLO_V8/deploy_demo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "YOLO_RUN"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "rknn_yolov5_deploy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rknn_yolov8_deploy",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "rknn_yolov5_deploy::@b2a691aba8bd297b0883",
+					"jsonFile" : "target-rknn_yolov5_deploy-Debug-7a837f5d1f89597f6860.json",
+					"name" : "rknn_yolov5_deploy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rknn_yolov8_deploy::@6db437c922a65c89d58a",
+					"jsonFile" : "target-rknn_yolov8_deploy-Debug-5b3ef27996df49353d6a.json",
+					"name" : "rknn_yolov8_deploy",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tmp.BHXHyPiweL/cmake-build-debug",
+		"source" : "/tmp/tmp.BHXHyPiweL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

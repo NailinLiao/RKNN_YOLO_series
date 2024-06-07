@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "YOLO_V8/deploy_demo",
+		"source" : "YOLO_V8/deploy_demo"
+	}
+}

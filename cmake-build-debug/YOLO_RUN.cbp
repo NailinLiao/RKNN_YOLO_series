@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="YOLO_RUN"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\YOLO_V5\;CMake Files\YOLO_V5\deploy_demo\;CMake Files\YOLO_V8\;CMake Files\YOLO_V8\deploy_demo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rknn_yolov5_deploy">
+				<Option output="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/rknn_yolov5_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include"/>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include/opencv4"/>
+					<Add directory="/usr/include/rga"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/../API/librknn_api_1.5.2/include"/>
+					<Add directory="/home/linaro/inst/rkaiq"/>
+					<Add directory="/home/linaro/inst/rkaiq/algos"/>
+					<Add directory="/home/linaro/inst/rkaiq/common"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser_v2"/>
+					<Add directory="/home/linaro/inst/rkaiq/xcore"/>
+					<Add directory="/home/linaro/inst/rkaiq/uAPI2"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/3rdparty/stb_image"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/3rdparty/jpeg_turbo/include"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/utils"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/include"/>
+					<Add directory="/home/linaro/inst/jpeg_turbo/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 rknn_yolov5_deploy"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rknn_yolov5_deploy/fast">
+				<Option output="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/rknn_yolov5_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include"/>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include/opencv4"/>
+					<Add directory="/usr/include/rga"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/../API/librknn_api_1.5.2/include"/>
+					<Add directory="/home/linaro/inst/rkaiq"/>
+					<Add directory="/home/linaro/inst/rkaiq/algos"/>
+					<Add directory="/home/linaro/inst/rkaiq/common"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser_v2"/>
+					<Add directory="/home/linaro/inst/rkaiq/xcore"/>
+					<Add directory="/home/linaro/inst/rkaiq/uAPI2"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/3rdparty/stb_image"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/3rdparty/jpeg_turbo/include"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/utils"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/include"/>
+					<Add directory="/home/linaro/inst/jpeg_turbo/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 rknn_yolov5_deploy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rknn_yolov8_deploy">
+				<Option output="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/rknn_yolov8_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include"/>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include/opencv4"/>
+					<Add directory="/usr/include/rga"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/../../3rd-party/RKNN_API/librknn_api_1.6.0/include"/>
+					<Add directory="/home/linaro/inst/rkaiq"/>
+					<Add directory="/home/linaro/inst/rkaiq/algos"/>
+					<Add directory="/home/linaro/inst/rkaiq/common"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser_v2"/>
+					<Add directory="/home/linaro/inst/rkaiq/xcore"/>
+					<Add directory="/home/linaro/inst/rkaiq/uAPI2"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/3rdparty/stb_image"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/3rdparty/jpeg_turbo/include"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/utils"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/include"/>
+					<Add directory="/home/linaro/inst/jpeg_turbo/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 rknn_yolov8_deploy"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rknn_yolov8_deploy/fast">
+				<Option output="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/rknn_yolov8_deploy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include"/>
+					<Add directory="/home/linaro/inst/opencv-4.5.5/include/opencv4"/>
+					<Add directory="/usr/include/rga"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/../../3rd-party/RKNN_API/librknn_api_1.6.0/include"/>
+					<Add directory="/home/linaro/inst/rkaiq"/>
+					<Add directory="/home/linaro/inst/rkaiq/algos"/>
+					<Add directory="/home/linaro/inst/rkaiq/common"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser"/>
+					<Add directory="/home/linaro/inst/rkaiq/iq_parser_v2"/>
+					<Add directory="/home/linaro/inst/rkaiq/xcore"/>
+					<Add directory="/home/linaro/inst/rkaiq/uAPI2"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/3rdparty/stb_image"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/3rdparty/jpeg_turbo/include"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/utils"/>
+					<Add directory="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/include"/>
+					<Add directory="/home/linaro/inst/jpeg_turbo/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 rknn_yolov8_deploy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/include/common.h">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/include/postprocess.h">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/include/yolov5.h">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/main.cc">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/src/postprocess.cc">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/src/yolov5.cc">
+			<Option target="rknn_yolov5_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/include/common.h">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/include/postprocess.h">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/include/yolov8.h">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/main.cc">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/src/postprocess.cc">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/src/yolov8.cc">
+			<Option target="rknn_yolov8_deploy"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V5/deploy_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\YOLO_V5\deploy_demo\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nICTTzEKj2/YOLO_V8/deploy_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\YOLO_V8\deploy_demo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+path: ../datasets/CircleTarget  # dataset root dir
+train: train.txt  # 1876 images
+val: val.txt  # 805 images
+test: # val.txt
+
+
+names:
+  0: CircleTarget
+
+
+

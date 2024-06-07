@@ -1,0 +1,8 @@
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/CMakeFiles/edit_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V5/deploy_demo/CMakeFiles/rknn_yolov5_deploy.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/CMakeFiles/edit_cache.dir
+/tmp/tmp.nICTTzEKj2/cmake-build-debug/YOLO_V8/deploy_demo/CMakeFiles/rknn_yolov8_deploy.dir
